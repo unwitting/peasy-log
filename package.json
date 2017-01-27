@@ -1,0 +1,19 @@
+{
+  "name": "peasy-log",
+  "version": "0.0.1",
+  "description": "Easy as in peasy colourised logging using markdown",
+  "main": "peasy-log.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": ["logging", "log", "markdown", "utils"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {
+    "jest": "^18.1.0"
+  }
+}
