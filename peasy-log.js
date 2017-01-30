@@ -6,6 +6,7 @@ renderer.em = text => colors.cyan(text)
 renderer.strong = text => colors.yellow(text)
 renderer.del = text => colors.green(text)
 renderer.paragraph = text => text
+renderer.link = text => text
 
 function colorise(s) {
   return marked(s, { renderer })

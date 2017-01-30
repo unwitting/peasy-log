@@ -10,4 +10,8 @@ test('createLogString separates arguments with a pipe', () => {
   expect(createLogString('ooo', 1, 'aaa')).toMatch(new RegExp(`^${datestampRegex} : ooo : 1 : aaa$`))
 })
 
+test(`createLogString doesn't add HTML tags to URLs`, () => {
+  expect(createLogString('https://google.com')).toMatch(new RegExp(`^${datestampRegex} : https://google.com$`))
+})
+
 // TODO test colorisation. Ideas?
