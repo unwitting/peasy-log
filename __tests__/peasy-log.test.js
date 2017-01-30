@@ -14,4 +14,8 @@ test(`createLogString doesn't add HTML tags to URLs`, () => {
   expect(createLogString('https://google.com')).toMatch(new RegExp(`^${datestampRegex} : https://google.com$`))
 })
 
+test(`createLogString doesn't escape HTML`, () => {
+  expect(createLogString('"<>"')).toMatch(new RegExp(`^${datestampRegex} : "<>"$`))
+})
+
 // TODO test colorisation. Ideas?
