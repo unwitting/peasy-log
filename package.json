@@ -1,12 +1,17 @@
 {
   "name": "peasy-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy as in peasy colourised logging using markdown",
   "main": "peasy-log.js",
   "scripts": {
     "test": "jest --verbose"
   },
-  "keywords": ["logging", "log", "markdown", "utils"],
+  "keywords": [
+    "logging",
+    "log",
+    "markdown",
+    "utils"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
