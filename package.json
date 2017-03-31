@@ -1,6 +1,6 @@
 {
   "name": "peasy-log",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easy as in peasy colourised logging using markdown",
   "main": "peasy-log.js",
   "scripts": {
